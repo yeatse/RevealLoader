@@ -18,12 +18,11 @@ char endianness = IS_LITTLE_ENDIAN;
 #endif
 
 //download libReveal using partialzip
-
-NSString *downloadURL = @"http://download.revealapp.com/Reveal.app.zip";
-NSString *zipPath = @"Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib";
+NSString *downloadURL = @"https://dl.devmate.com/com.ittybittyapps.Reveal2/Reveal.zip";
+NSString *zipPath = @"Reveal.app/Contents/SharedSupport/iOS-Libraries/RevealServer.framework/RevealServer";
 
 NSString *folder = @"/Library/RHRevealLoader";
-NSString *filename = @"libReveal.dylib";
+NSString *filename = @"RevealServer";
 
 struct partialFile {
     unsigned char *pos;

@@ -2,7 +2,7 @@ Package: com.rheard.reveal-loader
 Conflicts: com.rheard.rhrevealloader
 Replaces: com.rheard.rhrevealloader
 Name: Reveal Loader
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, preferenceloader, applist
 Maintainer: Richard Heard <cydia@rheard.com>
